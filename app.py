@@ -18,7 +18,6 @@ st.set_page_config(
 #API_KEY = os.getenv("API_KEY")
 
 # Set up Google Gemini-Pro AI model
-#gpt.configure(api_key="AIzaSyD2FgcE0rqCciGRzQngqQrwhxuZKgMj-Zg")
 gpt.configure(api_key=API_KEY)
 
 model = gpt.GenerativeModel('gemini-pro')
