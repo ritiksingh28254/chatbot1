@@ -6,7 +6,7 @@ from functions import*
 
 # Load environment variables
 #load_dotenv()
-API_KEY = st.secrets["general"]["api_key"]
+API_KEY = st.secrets["API_KEY"]
 
 # Configure Streamlit page settings
 st.set_page_config(
